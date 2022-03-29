@@ -1,0 +1,100 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.5;
+  background-color: rgb(84, 145, 153);
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  color: black;
+  font-style: italic;
+}
+h4 {
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  display: flex;
+  padding: 20px;
+}
+
+h2,
+h3 {
+  font-size: 26px;
+  text-decoration: underline;
+}
+
+table,
+td,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 900px;
+  padding: 10px;
+  text-align: center;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+.box {
+  flex: 33.33%;
+  padding: 20px;
+}
+.imageBox {
+  float: left;
+  padding: 10px;
+}
+.paris {
+  float: left;
+}
+/* .paris {
+  display: flex;
+} */
+.row1 {
+  display: flex;
+}
+
+#myImage {
+  padding-left: 30px;
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  .column {
+    flex-direction: column;
+  }
+  .imageBox {
+    float: none;
+    width: -webkit-fill-available;
+  }
+  .row1 {
+    flex-direction: column;
+  }
+  .introduction {
+    flex-direction: column;
+  }
+  table,
+  td,
+  th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+  }
+}
