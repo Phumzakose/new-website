@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   text-align: justify;
   line-height: 1.5;
-  background-color: rgb(84, 145, 153);
+  background-color: white;
 }
 
 h1,
@@ -20,17 +20,18 @@ h4 {
   text-align: center;
 }
 h1 {
-  font-size: 40px;
+  font-size: 35px;
   display: flex;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 h2,
 h3 {
   font-size: 26px;
   text-decoration: underline;
+  justify-items: center;
 }
-.text {
+h3 {
   justify-items: center;
 }
 
