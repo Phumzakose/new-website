@@ -71,6 +71,7 @@ th {
 .introduction {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .row {
@@ -121,5 +122,8 @@ th {
     width: 300px;
     padding: 10px;
     text-align: center;
+  }
+  h1{
+    justify-content: center;
   }
 }
